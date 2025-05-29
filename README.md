@@ -1,7 +1,7 @@
 # T2G
 We address the problem of time series classification(TSC) in graph environments. we present a novel concept of direction effect, emphasizing the impact of incorporating directionality into graph edges on classification performance. To exploit the direction effect positively, we propose a directional weight and a corresponding direction score to assign directionality to edges. 
 
-<img width="500" src="overview.png" alt="overview" />
+<img width="700" src="overview.png" alt="overview" />
 
 ## License
 
