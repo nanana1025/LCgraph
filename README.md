@@ -1,5 +1,5 @@
 # T2G
-We address the problem of time series classification(TSC) in graph environments. we present a novel concept of direction effect, emphasizing the impact of incorporating directionality into graph edges on classification performance. To exploit the direction effect positively, we propose a directional weight and a corresponding direction score to assign directionality to edges. 
+We address the problem of time series classification(TSC) in graph environments. We compute the directional weight using lagged correlation(LC). First, WholeLC utilizes LC values from the whole sequence to capture long-term trend. Second, SubLC aggregates LC values from sliding window-based subsequences to capture local patterns. 
 
 <img width="700" src="overview.png" alt="overview" />
 
