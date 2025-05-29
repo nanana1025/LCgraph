@@ -1,4 +1,4 @@
-# T2G
+# TSC Using Directed Weighted Graphs with Temporal Dependencies
 We address the problem of time series classification(TSC) in graph environments. We compute the directional weight using lagged correlation(LC). First, WholeLC utilizes LC values from the whole sequence to capture long-term trend. Second, SubLC aggregates LC values from sliding window-based subsequences to capture local patterns. 
 
 <img width="700" src="overview.png" alt="overview" />
@@ -83,7 +83,7 @@ All the logs will be saved in `logs/`
 *   `--batch`: mini-batch size
 *   `--epoch`: # of epochs
 
-5. `WholeLC.py` is a script to do classification of a dataset with WholeLC. Some important hyperparameters are as follows.
+6. `WholeLC.py` is a script to do classification of a dataset with WholeLC. Some important hyperparameters are as follows.
 *   `--dataset`: what dataset we operate on
 *   `--shot`: how many training labels are given in each class
 *   `--gpu`: which GPU to use
@@ -92,7 +92,7 @@ All the logs will be saved in `logs/`
 *   `--batch`: mini-batch size
 *   `--epoch`: # of epochs
 
-6. `SubLC.py` is a script to do classification of a dataset with SubLC. Some important hyperparameters are as follows.
+7. `SubLC.py` is a script to do classification of a dataset with SubLC. Some important hyperparameters are as follows.
 *   `--dataset`: what dataset we operate on
 *   `--shot`: how many training labels are given in each class
 *   `--gpu`: which GPU to use
